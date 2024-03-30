@@ -1,28 +1,3 @@
-# todo-graphql-example ![cypress version](https://img.shields.io/badge/cypress-9.7.0-brightgreen)
-[![ci status][gh image]][gh url] [![badges status][badges image]][badges url] [![tags](https://github.com/bahmutov/todo-graphql-example/actions/workflows/tags.yml/badge.svg?branch=master&event=push)](https://github.com/bahmutov/todo-graphql-example/actions/workflows/tags.yml) [![renovate-app badge][renovate-badge]][renovate-app] [![todo-graphql-example](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/count/ahwxj4/master&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/ahwxj4/runs) [![CircleCI](https://circleci.com/gh/bahmutov/todo-graphql-example/tree/master.svg?style=svg)](https://circleci.com/gh/bahmutov/todo-graphql-example/tree/master)
-
-## Blog posts
-
-- [Make GraphQL Calls From Cypress Tests](https://glebbahmutov.com/blog/request-graphql/)
-- [Dynamic API Tests Using Cypress-Each Plugin](https://glebbahmutov.com/blog/dynamic-api-tests-using-cypress-each/)
-- [Refactor Tests To Be Independent And Fast Using Cypress-Each Plugin](https://glebbahmutov.com/blog/refactor-using-each/)
-- [Faster test execution with cypress-grep](https://glebbahmutov.com/blog/cypress-grep-filters/)
-- [Add Timestamps To Cypress](https://glebbahmutov.com/blog/cypress-timestamps/)
-
-Read [Smart GraphQL Stubbing in Cypress](https://glebbahmutov.com/blog/smart-graphql-stubbing/). Note that with the addition of [cy.intercept](https://on.cypress.io/intercept) all extra hacks became unnecessary.
-
-## Videos
-
-- [Toggle Todo When Using GraphQL Calls](https://www.youtube.com/watch?v=QA_moq_Yh5M)
-- [Set GraphQL Network Intercept Alias](https://www.youtube.com/watch?v=jN1vsGGXAjw)
-- [Set GraphQL Operation Name As Custom Header And Use It In cy.intercept](https://www.youtube.com/watch?v=AcU5mkedchM)
-- [Add A New Item By Making GraphQL Call Using cy.request Command](https://www.youtube.com/watch?v=ubnJ9kWD1yQ)
-- [Use Application GraphQL Client To Make Calls From The Cypress Test](https://youtu.be/6ykTS40_scM)
-- [Stub The Initial Data Load Using A Fixture](https://youtu.be/IxgWmzy26gM)
-- [Delete All Items Using GraphQL Client As Part Of Cypress Test](https://www.youtube.com/watch?v=l7E7K7x7V8g)
-- [Directly Spying on GraphQL Calls Made By The Application](https://youtu.be/XadOqS0YNJE)
-- [Dynamic Tests From Cypress.io Fixture File](https://youtu.be/EXVwvJrUGJ8)
-- [Introduction To cypress-data-session Plugin](https://youtu.be/7ipCvJQixI0) using [cypress-data-session](https://github.com/bahmutov/cypress-data-session)
 
 ## Cypress tests
 
@@ -152,18 +127,3 @@ $ npm run local
 
 Look at [cypress/jsconfig.json](./cypress/jsconfig.json) that loads all 3rd party types, and includes the link to [cypress/support/index.d.ts](./cypress/support/index.d.ts) where I describe the type for custom command `cy.createTodos` defined in [cypress/support/index.js](./cypress/support/index.js).
 
-## About me
-
-- [@bahmutov](https://twitter.com/bahmutov)
-- [glebbahmutov.com](https://glebbahmutov.com)
-- [blog](https://glebbahmutov.com/blog)
-- [videos](https://www.youtube.com/glebbahmutov)
-- [presentations](https://slides.com/bahmutov)
-- [cypress.tips](https://cypress.tips)
-
-[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
-[renovate-app]: https://renovateapp.com/
-[badges image]: https://github.com/bahmutov/todo-graphql-example/workflows/badges/badge.svg?branch=master
-[badges url]: https://github.com/bahmutov/todo-graphql-example/actions
-[gh image]: https://github.com/bahmutov/todo-graphql-example/workflows/ci/badge.svg?branch=master
-[gh url]: https://github.com/bahmutov/todo-graphql-example/actions
